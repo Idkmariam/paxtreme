@@ -1,0 +1,38 @@
+name: paxtreme
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.3.2
+  table_calendar: ^3.0.0
+  syncfusion_flutter_datepicker: ^20.2.50
+  url_launcher: ^6.1.6
+
+dev_dependencies:
+  flutter_native_splash: ^2.3.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets section properly indented
+  assets:
+    - assets/splash.gif
+    - assets/logo.png
+    - assets/dicom.jpeg
+
+flutter_native_splash:
+  color: "#ffffff" 
+  image: assets/splash.gif  # Replace this with a PNG for better compatibility
+  android: true
+  ios: true
